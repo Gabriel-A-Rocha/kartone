@@ -25,6 +25,9 @@ export const Section = styled.section`
 
 export const Main = styled.main`
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
   background: #9ad3bc;
 `;

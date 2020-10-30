@@ -1,5 +1,6 @@
 import React from "react";
 
+import ProductCard from "../components/ProductCard/ProductCard";
 import logoImg from "../assets/logo.png";
 import { Container, Header, Section, Main } from "./styles";
 
@@ -19,7 +20,9 @@ const MainPage = () => {
       </Section>
 
       <Main>
-        <p>Something</p>
+        <ProductCard />
+        <ProductCard />
+        <ProductCard />
       </Main>
     </Container>
   );
